@@ -9,7 +9,7 @@ const Leagues = (props) => {
     const { strTeamBadge, strTeam ,strSport,idTeam} = props.leagues;
 
     return (
-        <div className='mx-5'>
+        <div className='m-auto'>
               <Card className='p-3 mx-auto my-2'
                              style={{ width: '18rem' }}>
                         <Card.Img variant="top"  src={strTeamBadge} />

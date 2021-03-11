@@ -17,13 +17,13 @@ const Home = () => {
         // .catch(err => console.log(err))
     }, [])
     return (
-        <div className='bg-warning'>
+        <div id="coverback">
       <Header/>
-
-      <div className='container flex-left'>
-        
+      <div className="container">
+        <div className="row">
         {leagues.map(leagues => <Leagues className='' leagues={leagues}></Leagues>)}
         </div>
+      </div>
       </div>
     );
 };
