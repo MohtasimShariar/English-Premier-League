@@ -1,11 +1,11 @@
 import React from 'react';
 import './Leagues.css'
-import { Card, Button, Row, Col, Container } from 'react-bootstrap';
+import { Card, Button} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import LeagueDet from '../LeagueDet/LeagueDet';
+//import LeagueDet from '../LeagueDet/LeagueDet';teamUrl
 
 const Leagues = (props) => {
-    const teamUrl='https://www.thesportsdb.com/api/v1/json/1/lookupteam.php?id='
+  
     const { strTeamBadge, strTeam ,strSport,idTeam} = props.leagues;
 
     return (

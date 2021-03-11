@@ -3,21 +3,21 @@ import { Button} from 'react-bootstrap';
 
 import { FaFacebook, FaTwitterSquare, FaYoutube} from "react-icons/fa";
 
-import { CgWebsite} from 'react-icons/cg';
+//import { CgWebsite} from 'react-icons/cg';
 // import { Link } from 'react-router-dom';
-import ReactDOM from 'react-dom';
+//import ReactDOM from 'react-dom';
 // import { library } from '@fortawesome/fontawesome-svg-core';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faFlag, faFutbol, faMapMarker, faVenusMars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFlag, faFutbol, faMapMarker, faVenusMars,FaTwitter } from '@fortawesome/free-solid-svg-icons'
+import { faFlag, faFutbol, faMapMarker, faVenusMars } from '@fortawesome/free-solid-svg-icons'
 // import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 import './LeagueDet.css'
 import { useParams } from 'react-router';
 import male from '../../Images/male.png';
 import female from '../../Images/female.png';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 
 const LeagueDet = () => {
     
