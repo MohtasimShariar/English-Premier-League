@@ -6,8 +6,9 @@ const Header = () => {
         
 <Jumbotron fluid id='header'>
     <div className="container">
-        <h1 className='text-center'>
-            Football Fever
+        <h1 className='text-center' >
+            <p id="text_league">English Premier League</p>
+            
         </h1>
     </div>
 </Jumbotron>

@@ -1,9 +1,21 @@
- #header1 img{
-     height: 50%;
+ #coverage img{
+     height: 80%;
      width: auto;
  }
 
- #ss{
-     width: 80%;
+ #gender-select{
+     width: 90%;
      height: auto;
  }
+ .shadow-box-example {
+    height: 100%;
+    width: 100%;
+    margin-top: 5px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    background-color: black;
+  }
+  .text{
+      color: solid cornsilk;
+      text-size-adjust: 20;
+  }

@@ -14,13 +14,13 @@ const Home = () => {
         .then(data => {
           setLeagues(data.teams.slice(0,15));
         })
-        // .catch(err => console.log(err))
+       
     }, [])
     return (
         <div id="coverback">
       <Header/>
       <div className="container">
-        <div className="row">
+        <div className="row shadow-box-example ">
         {leagues.map(leagues => <Leagues className='' leagues={leagues}></Leagues>)}
         </div>
       </div>
